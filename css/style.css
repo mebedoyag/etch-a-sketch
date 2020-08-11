@@ -1,0 +1,14 @@
+.container {
+    width: 720px;
+    display: grid;
+    grid-template-columns: repeat(16, 45px);
+    grid-auto-rows: 45px;
+}
+.container div {
+    /* border: 1px solid red; */
+    margin: 0;
+    border: 0;
+}
+/* .container div:hover {
+    background: red;
+} */
